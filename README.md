@@ -49,6 +49,8 @@ source_suffix = {
 
 You can find more info at [Sphinx's doc page](https://www.sphinx-doc.org/ja/master/usage/markdown.html#configuration)
 
+## sphinx-contrib-pluntuml
+
 To activate [sphinx-contrib-plantuml](https://github.com/sphinx-contrib/plantuml), add `sphinxcontrib.plantuml` to `extensions` and set `plantuml` with the command to run plantuml.jar.
 
 The jar is bundled at `plantuml/plantuml-1.2022.0.jar` which is published at [Release page of PlantUML](https://github.com/plantuml/plantuml/releases/tag/v1.2022.0)
