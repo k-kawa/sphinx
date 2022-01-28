@@ -29,7 +29,7 @@ steps:
 
 ## Customization
 
-This container images contains plugins some of which require to change your `conf.py` in your project.
+This container image contains plugins some of which require to change your `conf.py` in your project.
 
 ### myst_parser
 
@@ -49,6 +49,8 @@ source_suffix = {
 
 You can find more info at [Sphinx's doc page](https://www.sphinx-doc.org/ja/master/usage/markdown.html#configuration)
 
+### plantuml
+
 To activate [sphinx-contrib-plantuml](https://github.com/sphinx-contrib/plantuml), add `sphinxcontrib.plantuml` to `extensions` and set `plantuml` with the command to run plantuml.jar.
 
 The jar is bundled at `plantuml/plantuml-1.2022.0.jar` which is published at [Release page of PlantUML](https://github.com/plantuml/plantuml/releases/tag/v1.2022.0)
@@ -65,3 +67,6 @@ plantuml = 'java -jar /plantuml/plantuml-1.2022.0.jar'
 
 You can find more infomation at [Github Repository of this plugin](https://github.com/sphinx-contrib/plantuml)
 
+## Font
+
+This image contains [VLGothic Font](https://osdn.net/projects/vlgothic/) to use Japanese text in PlantUML diagrams.
