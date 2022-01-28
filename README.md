@@ -49,7 +49,7 @@ source_suffix = {
 
 You can find more info at [Sphinx's doc page](https://www.sphinx-doc.org/ja/master/usage/markdown.html#configuration)
 
-### plantuml
+### sphinx-contrib-plantuml
 
 To activate [sphinx-contrib-plantuml](https://github.com/sphinx-contrib/plantuml), add `sphinxcontrib.plantuml` to `extensions` and set `plantuml` with the command to run plantuml.jar.
 
